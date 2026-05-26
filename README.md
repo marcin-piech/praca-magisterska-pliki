@@ -1,2 +1,2 @@
 # Praca magisterska
-Pliki związane z pracą magisterską studenta Marcin Piech 191679
+Pliki dotyczące pracy magistersk studenta Marcin Piech 191679
