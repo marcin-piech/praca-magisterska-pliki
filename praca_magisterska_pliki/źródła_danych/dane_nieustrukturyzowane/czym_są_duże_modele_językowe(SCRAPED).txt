@@ -1,0 +1,293 @@
+- [Przejdź do treści](https://www.oracle.com/pl/artificial-intelligence/large-language-model/#maincontent)
+- [Zasady ułatwień dostępu](https://www.oracle.com/corporate/accessibility/)
+
+Menu [Strona główna Oracle](https://www.oracle.com/)
+
+ŁĄCZA PODRĘCZNE
+
+- [Cloud](https://www.oracle.com/pl/cloud/)
+- [Bazy danych](https://www.oracle.com/pl/database/)
+- [Java](https://www.oracle.com/pl/java/)
+- [AI](https://www.oracle.com/pl/artificial-intelligence/)
+
+SUGEROWANE ŁĄCZA
+
+SUGEROWANE WYSZUKIWANIA
+
+[![Poland](https://www.oracle.com/asset/web/i/flg-pl.svg)](https://www.oracle.com/pl/countries-list.html#countries)
+
+Wstecz
+
+Konto Cloud [Zaloguj się w Cloud](https://www.oracle.com/pl/cloud/sign-in.html) [Zarejestruj się we Free Cloud Tier](https://www.oracle.com/pl/cloud/free/)
+
+Konto Oracle
+
+- [Zaloguj się](https://www.oracle.com/webapps/redirect/signon?nexturl=https%3A%2F%2Fwww.oracle.com%2Fpl%2Fartificial-intelligence%2Flarge-language-model%2F)
+- [Utwórz konto](https://profile.oracle.com/myprofile/account/create-account.jspx)
+
+- [Pomoc](https://www.oracle.com/pl/corporate/contact/help.html)
+- [Wyloguj się](https://www.oracle.com/webapps/cloudgate/logout.html?postlogouturl=https%3A%2F%2Fwww.oracle.com%2Fpl%2Fartificial-intelligence%2Flarge-language-model%2F)
+
+[Skontaktuj się z nami](https://www.oracle.com/pl/corporate/contact/)
+
+- [Oracle Polska](https://www.oracle.com/pl/index.html)
+- [Chmura](https://www.oracle.com/pl/cloud/)
+- [Sztuczna inteligencja](https://www.oracle.com/pl/artificial-intelligence/)
+
+# Czym są duże modele językowe?
+
+Joseph Tsidulko \| Starszy redaktor \| 29 lipca 2025 r.
+
+**Spis treści**
+
+- [Czym są modele LLM?](https://www.oracle.com/pl/artificial-intelligence/large-language-model/#what-is-a-large-language-model)
+- [Charakterystyka modeli LLM](https://www.oracle.com/pl/artificial-intelligence/large-language-model/#large-language-models)
+- [Modele LLM a inne modele sztucznej inteligencji — efektywność i skalowalność](https://www.oracle.com/pl/artificial-intelligence/large-language-model/#llms-ai-models)
+- [Zastosowania i korzyści z modeli LLM](https://www.oracle.com/pl/artificial-intelligence/large-language-model/#benefits-application)
+- [Przykłady użycia modeli LLM](https://www.oracle.com/pl/artificial-intelligence/large-language-model/#use-cases-examples)
+- [Przyszłość modeli LLM](https://www.oracle.com/pl/artificial-intelligence/large-language-model/#the-road-ahead)
+- [Tworzenie aplikacji LLM za pomocą generatywnej sztucznej inteligencji bazującej na infrastrukturze OCI](https://www.oracle.com/pl/artificial-intelligence/large-language-model/#build-llm-app)
+- [Modele LLM — często zadawane pytania](https://www.oracle.com/pl/artificial-intelligence/large-language-model/#faqs)
+
+Duże modele językowe (large language models, modele LLM) to coraz popularniejszy typ sztucznej inteligencji, zaprojektowany przede wszystkim w celu generowania odpowiedzi podobnych do odpowiedzi człowieka na dane wejściowe przekazane przez użytkownika w postaci tekstowej, głosowej lub innej. Modele LLM są trenowane na ogromnej ilości tekstu, dzięki czemu mogą nauczyć się przewidywać kolejne słowo lub sekwencję słów na podstawie kontekstu dostarczonego przez przekazaną instrukcję (prompt). Modele te sa nawet zdolne do naśladowania stylu pisania typowego dla danego autora lub gatunku literackiego.
+
+Modele LLM wyszły z laboratoriów i pojawiły się w świadomości społecznej na początku lat 20. XXI wieku. Od tamtej pory, dzięki swojej imponującej zdolności interpretowania zapytań i generowania trafnych odpowiedzi, stały się zarówno samodzielnymi produktami, jak i zapewniającymi wartość dodaną funkcjami wbudowanymi w oprogramowanie biznesowe, zapewniając tam przetwarzanie języka naturalnego, tłumaczenie maszynowe, generowanie treści, dostęp do czatbotów, tworzenie podsumowań dokumentów itp.
+
+Technologia ta jest nadal dynamicznie rozwijana, a w modelach LLM uwzględnia się coraz większe zbiory danych oraz stosuje się kolejne etapy treningu i dostrajania, aby poprawić ich działanie. Szersze i głębsze treningi, możliwe dzięki coraz wydajniejszej infrastrukturze obliczeniowej, owocują coraz bardziej zaawansowanymi zdolnościami rozumowania, które można wykorzystać do tworzenia planów realizacji celów organizacyjnych. Wspomniane zdolności są również podstawą funkcjonowania agentów AI, które wykorzystują zaawansowane modele LLM do wykonywania zadań określonych przez człowieka.
+
+## Czym są duże modele językowe?
+
+Duże modele językowe to [systemy sztucznej inteligencji](https://www.oracle.com/pl/artificial-intelligence/what-is-ai/), które zostały wytrenowane na ogromnych zbiorach danych, często składających się z miliardów słów zaczerpniętych z książek, stron internetowych i innych źródeł, aby generować podobne do ludzkich, kontekstowo trafne odpowiedzi na zapytania. Modele LLM są zaprojektowane tak, aby rozumieć pytania („instrukcje” lub „prompty” w terminologii LLM) i generować na nie odpowiedzi w języku naturalnym. Dzięki temu mogą m.in. odpowiadać na pytania klientów, streszczać informacje zawarte w raportach, tłumaczyć oraz tworzyć wiersze, linie kodu komputerowego i wersje robocze wiadomości e-mail. Modele LLM zazwyczaj cechują się zaawansowanym rozumieniem gramatyki i semantyki języków, w których były trenowane. Można je skonfigurować tak, aby używały danych własnej organizacji w celu udzielania odpowiedzi właściwych dla tej organizacji.
+
+Mimo tych imponujących zdolności, użytkownicy powinni pamiętać o ograniczeniach modelu LLM. Nieaktualne dane i źle sformułowane instrukcje mogą prowadzić do błędów, na przykład czatbot może udzielić błędnej odpowiedzi na temat produktów przedsiębiorstwa. Brak wystarczających danych może powodować, że model LLM wymyśla odpowiedzi, czyli „halucynuje”. Ponadto mimo, że modele LLM doskonale radzą sobie z przewidywaniem, historycznie rzecz biorąc, nie są w stanie precyzyjnie wyjaśnić, w jaki sposób doszły do danego wniosku. Są to niektóre z obszarów, w których dąży się do poprawy działania nowszych modeli LLM.
+
+Wciąż jednak modele LLM są znaczącym krokiem naprzód w [dziedzinie przetwarzania języka naturalnego](https://www.oracle.com/pl/artificial-intelligence/what-is-natural-language-processing/). Biznesowych zastosowań tej technologii jest mnóstwo, a nowe są szybko rozwijane i wdrażane.
+
+**Kluczowe wnioski**
+
+- Duże modele językowe to najnowsza technologia w dziedzinie przetwarzania języka naturalnego, która znalazła również zastosowanie w tworzeniu multimodalnej sztucznej inteligencji zdolnej do generowania dźwięku i obrazów.
+- „Duży” to pojęcie względne, które odwołuje się do liczby parametrów ocenianych przez model podczas określania danych wyjściowych dla danej instrukcji.
+- Modele LLM zyskały popularność w 2022 roku wraz z wydaniem aplikacji ChatGPT, za sprawą której model GPT-3.5 firmy OpenAI został udostępniony do powszechnego użytku. Inne popularne modele to Llama, Gemini i Cohere Command R.
+
+## Charakterystyka modeli LLM
+
+Przetwarzanie języka naturalnego jest aktywnym obszarem badań nad sztuczną inteligencją od lat 60. XX wieku, a pierwsze modele językowe powstały już kilkadziesiąt lat temu. Modele LLM przyczyniły się do rozwoju tego obszaru badań dzięki [zastosowaniu uczenia głębokiego](https://www.oracle.com/pl/artificial-intelligence/machine-learning/what-is-deep-learning/), które nakłada warstwy [uczenia maszynowego](https://www.oracle.com/pl/artificial-intelligence/machine-learning/) na sieci neuronowe w celu uzyskania bardziej zaawansowanych modeli. Kolejną cechą charakterystyczną modeli LLM jest to, że trenowanie modelu podstawowego odbywa się bez udziału człowieka i polega na etykietowaniu danych (uczenie samonadzorowane).
+
+Współczesna koncepcja modelu LLM powstała w 2017 r. za sprawą przełomowego artykułu opublikowanego przez Google, w którym opisano nową, zaawansowaną architekturę nazwaną transformerem (transformer). Transformery stosowały mechanizm samouwagi, który umożliwiał przetwarzanie równoległe, co przyspieszyło i obniżyło koszty zarówno trenowania, jak i wdrażania modeli. Firma OpenAI zastosowała tę architekturę do zbudowania modelu GPT-1, który przez wielu uważany jest za pierwszy współczesny model LLM.
+
+Przedsiębiorstwa zwróciły uwagę na nową technologię i szybko odkryły, że modele LLM mogą mieć niezliczone zastosowania i oferują ogromny potencjał, pomagając zwiększyć produktywność, efektywność i responsywność działalności biznesowej.
+
+## Modele LLM a inne modele sztucznej inteligencji — efektywność i skalowalność
+
+Model LLM to jeden z wielu typów sztucznej inteligencji opracowanych w procesie uczenia maszynowego. Istnieje jednak kilka elementów, które definiują i określają taki model. Przede wszystkim chodzi o rozmiar. W przypadku dużego modelu językowego przymiotnik „duży” określa liczbę parametrów, na podstawie których wykonywane są obliczenia na potrzeby przygotowania danych wyjściowych, a także ilość danych użytych do wytrenowania modelu poprzez dostrojenie tych parametrów.
+
+- **Rozmiar i wydajność**. Model LLM jest zdefiniowany przez rozmiar modelu, który oddaje liczbę parametrów decydujących danych wyjściowych. W ciągu zaledwie kilku lat najpopularniejsze modele stały się wielokrotnie większe. Model GPT-1 miał nieco ponad 100 mln parametrów, podczas gdy jego najnowszy następca, GPT-4, ma prawdopodobnie ponad 1,75 bln parametrów (firma OpenAI nie ujawniła jego rzeczywistej wielkości).
+
+
+
+Im większy rozmiar modelu i im bardziej rozbudowany zestaw treningowy, tym zazwyczaj lepsze są wyniki takiego modelu w generowaniu unikatowych, trafnych odpowiedzi, które sprawnie naśladują ludzkie rozumienie i zdolności językowe. Wydajność można mierzyć za pomocą metryki jakości prognozy (perplexity), która określa, jak pewny jest model podczas przewidywania następnego słowa w sekwencji danych wyjściowych.
+
+
+
+Większe modele zazwyczaj zapewniają lepszą wydajność, ale nie pod każdym względem. Ich potencjalne wady mogą obejmować większe opóźnienia, czyli dłuższy czas potrzebny modelowi na udzielenie odpowiedzi na instrukcję, oraz trudności ze skalowaniem ze względu na wymaganą przez model infrastrukturę obliczeniową. Są również trudniejsze do dostosowania do konkretnych zastosowań w przedsiębiorstwie. W związku z tym podejmowane są istotne działania mające na celu opracowanie mniejszych modeli LLM, które będą zarówno bardziej ekonomiczne we wdrażaniu, jak i nadal będą działać dobrze, a przynajmniej w bardziej ograniczonych obszarach i zastosowaniach.
+- **Skalowalność i wdrażanie**. Model LLM można wdrożyć na kilka różnych sposobów. Dostawcy komercyjni, tacy jak OpenAI, Google i Cohere, udostępniają swoje modele za pośrednictwem usług hostowanych, dostępnych w przeglądarce lub aplikacji lub za pomocą wywołań interfejsu API. Wiele przedsiębiorstw preferuje jednak hostowanie własnych modeli LLM, zazwyczaj modeli podstawowych, które zostały odpowiednio [dostosowane](https://www.oracle.com/pl/artificial-intelligence/fine-tune-llms/) lub wzbogacone o należące do danego przedsiębiorstwa dane przedsiębiorstwa, na lokalnych serwerach lub w swoich środowiskach chmury publicznej, gdzie uruchamiana jest faza wnioskowania potrzebna do działania tych modeli. Użytkownicy i oprogramowanie wchodzą następnie w interakcję z tymi modelami za pomocą bezpośrednich wywołań lub punktów końcowych API.
+
+
+
+Niezależnie od metody wdrożenia, modele LLM — zwłaszcza te, które są dostępne publicznie lub dla dużej liczby pracowników — muszą być skalowalne, aby sprostać oczekiwanemu zapotrzebowaniu bez nadwyrężania budżetu przedsiębiorstwa. Skalowanie wiąże się jednak z określonymi kompromisami. Rozwiązania zwiększające skalowalność, takie jak wydajniejsza infrastruktura do obsługi wnioskowania, funkcje przetwarzania rozproszonego oraz efektywnego równoważenia obciążenia i buforowania, wymagają bowiem poniesienia kosztów. Brak wyważenia kosztów i korzyści może skutkować opóźnieniami ograniczającymi zdolność do uruchamiania aplikacji w czasie rzeczywistym, niejednolitym działaniem, niskim tempem przyswajania przez pracowników oraz nieodpowiednimi środkami ochrony prywatności i bezpieczeństwa danych.
+- **Dostosowanie do obszaru działania**. Najlepsze modele podstawowe mogą przyswajać sobie ogóle dane abstrakcyjne i wykazywać kreatywność w swoich danych wyjściowych. Kiedy już wybierzesz model podstawowy z odpowiednią moc obliczeniową i funkcjonalnością, możesz jeszcze bardziej poprawić jego wydajność w konkretnych obszarach i zastosowaniach. Ta faza [uczenia nadzorowanego](https://www.oracle.com/pl/artificial-intelligence/machine-learning/supervised-learning/) dostosowuje model LLM do określonego obszaru bez konieczności ponownego trenowania modelu podstawowego.
+
+
+
+Efektywnym sposobem zwiększenia zdolności adaptacji do obszaru działania jest również wyrównanie rozkładów cech poprzez podkreślenie danych mających wspólne właściwości w różnych obszarach zarówno na etapie wstępnego treningu, jak i dostrajania.
+
+
+
+Na schemacie pokazano, jak duże modele językowe się uczą i prognozują. W fazie trenowania model uczy się wzorców. Następnie przechodzi do fazy wnioskowania, w której przetwarza nowe dane w celu generowania informacji lub prognoz.
+Model LLM to typ sztucznej inteligencji generującej język, która korzysta z intensywnie trenowanych sieci neuronowych na potrzeby oceny i reagowania na instrukcje. Kategoria „duży” nie ma zdefiniowanej granicy; to, co kwalifikuje się do tej kategorii, stale się powiększa wraz z wzrostem zaawansowania modeli i mocy obliczeniowej, a zwłaszcza klastrów procesorów GPU.
+
+
+
+Przed rozpoczęciem treningu język jest przekształcany na tokeny, czyli numeryczne reprezentacje słów lub części alfabetu i mowy, które są zrozumiałe dla komputerów.
+
+
+
+Następnie wybierany jest algorytm, który obejmuje rozbudowaną komputerową sieć neuronową, oraz zbiór danych do uczenia samonadzorowanego. W fazie trenowania algorytm dostraja miliardy, a nawet biliony parametrów, aby dokładnie przewidzieć następny token w sekwencji, dopóki model nie zacznie odpowiednio reagować na instrukcje. W rezultacie to właśnie parametry modelu przechowują wiedzę zdobytą w fazie trenowania.
+- **Podstawowa architektura transformera**. Transformery były koncepcyjnym przełomem, który zapoczątkował obecną falę zainteresowania modelami LLM i [generatywną sztuczną inteligencją](https://www.oracle.com/pl/artificial-intelligence/generative-ai/what-is-generative-ai/). Zaproponowana w przełomowym artykule naukowców z Google w 2002 r. architektura transformera odbiegała od dotychczasowych podejść do tworzenia modeli językowych. Zamiast polegać wyłącznie na procesie zwanym rekurencją, który obejmuje sekwencyjną serię danych wejściowych i danych wyjściowych, transformery wdrażają mechanizm samouwagi, który podczas przetwarzania zdań analizuje jednocześnie relacje między kilkoma słowami — nawet tymi, które są od siebie oddalone w tekście. Odbywa się to poprzez utworzenie trzech różnych wektorów: jednego dla analizowanego słowa, drugiego dla otaczających to słowo słów w celu ustalenia ich znaczenia dla zrozumienia słowa oraz trzeciego wektora reprezentującego informacje zawarte w analizowanym słowie. Ten trzeci wektor może mieć różną wartość w zależności od kontekstu słowa. Na przykład słowo „żółć” może oznaczać kolor, nastrój danej osoby lub płyn wątrobowy.
+
+
+
+Przykładowy tekst:
+
+„Jak się czujesz?” — zapytała.
+
+
+
+„Nie wiem” — odpowiedział. „Nie mogę się dzisiaj skupić na pracy i tak jest już od jakiegoś czasu. Nadal kipi we mnie żółć”.
+
+
+
+Zanim samouwaga stała się częścią procesu, algorytmy nie były zdolne do rozpoznania związku między „uczuciem” a „żółcią”, co mogło prowadzić do błędnej interpretacji. Samouwaga pozwala określić istotność związku między dwoma słowami, nawet jeśli nie znajdują się one blisko siebie w sekwencji słów.
+
+
+
+Dzięki zastosowaniu samouwagi modele mogą być trenowane równolegle na ogromnych ilościach danych, zasadniczo przetwarzając zdania jednocześnie, a nie słowo po słowie. Pozwala to jeszcze lepiej wykorzystać możliwości procesorów GPU. Transformery mogą również analizować tokeny z instrukcji jednocześnie, aby szybciej generować odpowiedzi i lepiej wyjaśniać niejednoznaczności.
+- **Trening i dostrajanie**. Modele podstawowe, czyli obecnie filary modeli LLM, są trenowane na korpusie danych pobieranych zazwyczaj z Internetu i innych repozytoriów informacji pisemnych. Udane modele powstałe dzięki zastosowaniu uczenia samonadzorowanego, w ramach którego miliardy parametrów są dostrajane iteracyjnie, zazwyczaj dobrze radzą sobie z generowaniem uogólnionych danych wyjściowych: tworzeniem tekstu w różnych kontekstach, rozumieniem znaczenia różnych stylów wypowiedzi oraz przedstawianiem złożonych, a nawet abstrakcyjnych idei.
+
+
+
+Model podstawowy można dostroić w celu zwiększenia jego dokładności i poprawy wydajności w określonym obszarze, na przykład w opiece zdrowotnej lub w finansach, lub w konkretnym zastosowaniu, np. w tłumaczeniu lub streszczaniu. Proces dostrajania zaczyna się od modelu podstawowego, który jest następnie dalej trenowany na mniejszych, bardziej precyzyjnych zbiorach etykietowanych danych, aby doskonalić jego zdolność do wykonywania konkretnych zadań istotnych dla danej branży lub danego zastosowania.
+- **Znaczenie modelu i skalowalności**. Do twórców LLM należy ostateczna decyzja o liczbie parametrów trenowanych przez ich algorytm oraz ilości danych potrzebnych do przeprowadzenia tego procesu w sposób efektywny. Im większa ta liczba, tym bardziej złożony jest wynikowy model i zazwyczaj tym bardziej unikatowe, dokładne i trafne są dane wyjściowe. Z tą doskonałą wydajnością wiążą się jednak wyższe koszty trenowania i koszty operacyjne oraz określone wyzwania związane ze skalowaniem na potrzeby obsługi przez wytrenowany model większej liczby użytkowników.
+
+
+
+Skalowalność każdego wdrożenia modelu LLM zależy częściowo od jakości danego modelu. Algorytm treningowy, architektura modelu i zbiór danych wybrane przez twórców sztucznej inteligencji wpływają na to, jak dobrze ich modele podstawowe optymalizują zużycie zasobów, takich jak pamięć, procesory i energia, aby wykonywać pożądane funkcje.
+
+
+
+Pojawiają się również nowe techniki zmniejszania rozmiaru modelu i zbioru danych treningowych, co ogranicza koszty i trudności związane ze skalowaniem, nie wpływając znacząco na wydajność modelu LLM, zwłaszcza w przypadku węższych zastosowań.
+
+## Zastosowania i korzyści z modeli LLM
+
+Modele LLM to siła napędowa wielu typów nowatorskich zastosowań. Opinia publiczna w dużej mierze poznała oszałamiające zdolności tych modeli, gdy pojawił się ChatGPT, przeglądarkowa wersja modelu GPT-3.5 opracowana przez firmę OpenAI, oraz jego nowsze wersje, w tym GPT-4o i GPT-4. Korzyści sięgają jednak dużo dalej, do środowisk biznesowych, gdzie modele LLM pokazują swoje możliwości w branżach i działach, takich jak usługi finansowe, kadry, handel detaliczny, marketing, sprzedaż, tworzenie oprogramowania, asysta techniczna i opieka zdrowotna.
+
+Popularne zastosowania biznesowe modeli LLM to m.in. czatboty obsługi klienta, analizy opinii klientów oraz naturalne, potoczne i kontekstowe tłumaczenia. Modele LLM wykonują również bardziej specjalistyczne zadania w tle, takie jak przewidywanie struktur białkowych w badaniach farmaceutycznych, tworzenie kodu oprogramowania oraz obsługa agentów, które są coraz częściej wdrażane przez przedsiębiorstwa w celu automatyzacji procesów biznesowych.
+
+- **Wszechstronność zastosowań**. Modele LLM są podstawową technologią w różnorodnych i coraz liczniejszych zastosowaniach konsumenckich i biznesowych. Ta wszechstronność wynika z procesu samouczenia się modeli na dużych zbiorach danych, co sprawia, że sztuczna inteligencja staje się niezwykle biegła w analizowaniu złożonych wzorców w danych w celu tworzenia trafnych, kontekstowych danych wyjściowych.
+
+
+
+Nowoczesne aplikacje wykorzystują tę cechę do wykonywania zadań, takich jak pisanie unikatowych tekstów marketingowych i raportów, ocena nastrojów klientów, streszczanie dokumentów, a nawet generowanie danych wyjściowych niezwiązanych z językiem, w tym obrazów i dźwięków. [Agenty AI](https://www.oracle.com/pl/artificial-intelligence/ai-agents/) szczególnie dobrze ilustruje wszechstronność modelu LLM, ponieważ są zdolne do interakcji z otoczeniem i wykonywania zadań w różnych obszarach bez specjalistycznej wiedzy.
+
+
+
+Proces dostrajania modeli w ramach uczenia nadzorowanego dodatkowo rozszerza zakres zastosowań biznesowych, które można oprzeć na generatywnej sztucznej inteligencji. Funkcja generowania wspomaganego wyszukiwaniem również może zwiększyć efektywność modeli LLM w otoczeniu biznesowym, ponieważ poprawia dokładność i trafność danych wyjściowych poprzez uwzględnienie zastrzeżonych danych biznesowych, które można na bieżąco aktualizować bez konieczności zmiany modelu podstawowego.
+- **Lepsze interakcje z klientami**. Modele LLM szybko dowiodły swojej skuteczności w [obszarze obsługi klienta](https://blogs.oracle.com/observability/post/genai-powered-digital-assistant). Jest to oczywiste zastosowanie dla każdego, kto poznał już zdolność modelu LLM do prowadzenia dialogu w drodze odpowiadania na kolejne, zniuansowane pytania człowieka w sposób jasny, szczegółowy i użyteczny.
+
+
+
+Modele LLM mogą jednak doskonalić interakcje z klientami na wiele sposobów, wykraczających poza czatboty. Przy pomocy tych modeli przedsiębiorstwa generują skierowane do klientów wiadomości e-mail, SMS-y lub wpisy w mediach społecznościowych, które odpowiadają na pytania dotyczące produktów, kwestii technicznych lub sprzedaży. Ponadto wykorzystują modele LLM do tłumaczenia zapytań klientów posługujących się językami obcymi. Modele LLM można również skonfigurować tak, aby wspomagały agentów w działach sprzedaży i obsługi klienta, zarówno ludzi, jak i agentów AI, dostarczając im gotowych do użycia informacji i odpowiedniej dokumentacji, podsumowując poprzednie interakcje, kontaktując się z klientami i dokumentując interakcje.
+
+
+
+Jedna z największych na świecie firm świadczących usługi profesjonalne, która prowadzi działalność w ponad 100 krajach, ostatnio zwiększyła nacisk na zarządzanie relacjami z klientami, wdrażając generatywną sztuczną inteligencję opartą na modelach LLM. Aby uzyskać więcej informacji z ankiet badających zadowolenie klientów, [firma wdrożyła model LLM](https://www.oracle.com/pl/customers/aon-case-study/) do analizy nastrojów wyrażanych w tych ankietach. Sztuczna inteligencja może teraz wskazywać trendy i dostarczać ogólnych informacji na temat tego, jak produkty i usługi tej firmy są przyjmowane oraz jak można je udoskonalić.
+- **Automatyzacja i produktywność**. Modele LLM okazują się niezwykle efektywne w automatyzacji powtarzalnych zadań, w tym zadań wymagających podejmowania decyzji zbyt złożonych, aby mogły je podjąć wcześniejsze modele sztucznej inteligencji. Taka automatyzacja może przyczynić się do zwiększenia produktywności pracowników, którzy będą mogli skupiać się na bardziej zaawansowanych zadaniach wymagających kreatywnego i krytycznego myślenia.
+
+
+
+Agenci to wschodząca technologia, która wykorzystuje zaawansowane zdolności rozumowania modelu LLM do kierowania przepływami pracy przy minimalnej interwencji człowieka. Agenty, oparte na podstawowych modelach językowych, są zaprojektowane tak, aby podejmować decyzje podczas interakcji z ludźmi i oprogramowaniem w środowiskach przedsiębiorstwa. Mogą samodzielnie wykonywać zadania w różnych obszarach, generując powiadomienia o działaniach wymagających przeglądu lub autoryzacji przez człowieka, co pomaga zapewnić nad nimi odpowiedni nadzór.
+
+
+
+Modele LLM podnoszą produktywność również w inny sposób, m.in. poprzez szybkie wyszukiwanie istotnych informacji dla kierownictwa i innych osób podejmujących decyzje, tworzenie wersji roboczych tekstów dla marketerów oraz pisanie kodu oprogramowania we współpracy z programistami.
+
+## Przykłady użycia modeli LLM
+
+Modele LLM odnajdują się w coraz większej liczbie [zastosowań biznesowych](https://www.oracle.com/pl/artificial-intelligence/solutions/). Wiele przedsiębiorstw korzysta obecnie z czatbotów jako elementu strategii obsługi klienta. Dzięki wszechstronności tych modeli kreatywni twórcy oprogramowania dla przedsiębiorstw stosują tę technologię do realizacji szerokiego zakresu zadań wykraczających poza zwykłe generowanie odpowiedzi językowych.
+
+**1\. Automatyzacja asysty technicznej**
+
+Asysta techniczna jest najbardziej oczywistym zastosowaniem modelu LLM w środowisku biznesowym, zwłaszcza w kontaktach z klientami. Konwersacyjne interfejsy użytkownika, czyli czatboty, oparte na modelach językowych, mogą obsługiwać niemal nieograniczoną liczbę zapytań o każdej porze dnia i nocy. Pozwala to znacząco skrócić długi czas oczekiwania na odpowiedź wynikający z przeciążenia personelu telecentrów, co jest głównym źródłem frustracji klientów.
+
+Integracja czatbotów z innymi aplikacjami opartymi na technologii LLM pozwala zautomatyzować zadania kontynuacji obsługi zgłoszenia, takie jak wysyłanie części zamiennych, dokumentów lub ankiet. Model LLM może również bezpośrednio wspomagać pracowników, zapewniając im aktualne informacje, analizy opinii, tłumaczenia i podsumowania interakcji.
+
+Działająca w ponad 50 krajach i obsługująca 80 języków firma zarządzająca funduszami [wykorzystała te zdolności](https://blogs.oracle.com/digitalassistant/post/profuturo-achieves-150-increase-in-service-levels-and-30-reduction-in-operational-costs), aby ułatwiać swoim klientom poznanie i wybór instrumentów finansowych najlepiej odpowiadających ich potrzebom. Firma zarządzająca kontami emerytalnymi zmodernizowała swój system świadczenia asysty technicznej, wprowadzając niestandardowego czatbota, który zapewnił wzrost poziomu usług o 150% oraz spadek kosztów operacyjnych o 30%. W witrynie internetowej tej firmy klienci mogą teraz całodobowo i w wielu językach zadawać czatbotowi pytania dotyczące ich kont.
+
+**2\. Generowanie i podsumowywanie**
+
+Modele LLM mogą tworzyć oryginalną lub streszczać istniejącą zawartość. Obie te funkcje są niezwykle przydatne dla dużych i małych przedsiębiorstw, które mogą teraz używać generatywnej sztucznej inteligencji zarówno do pisania raportów, wiadomości e-mail, blogów, materiałów marketingowych i wpisów w mediach społecznościowych, jak i personalizowania generowanej zawartości pod kątem konkretnych odbiorców grupowych lub indywidualnych.
+
+Podsumowanie pozwala skondensować duże ilości informacji, z uwzględnieniem specyfiki danej dziedziny, do formatu łatwiejszego do szybkiego przejrzenia i przyswojenia dla człowieka. Modele LLM dokonują takiego podsumowania poprzez ocenę znaczenia różnych idei zawartych w tekście, a następnie wyodrębnienie kluczowych fragmentów; lub poprzez wygenerowanie zwięzłych streszczeń najistotniejszych informacji zawartych w oryginalnym tekście.
+
+Czasami krytykuje się modele LLM za „podsumowywanie do przeciętności”, co oznacza, że ich podsumowania są zbyt ogólne i pomijają kluczowe informacje lub ważne punkty oryginalnego materiału. Ponadto trudno jest ocenić wiarygodność podsumowań i odpowiednio uszeregować wyniki różnych modeli. Niemniej jednak przedsiębiorstwa z entuzjazmem przyjmują tę zdolność do podsumowań.
+
+Jedna z głównych firm zajmujących się komunikacją w chmurze wdrożyła model LLM w celu [automatycznego podsumowywania transkrypcji](https://www.oracle.com/pl/customers/intermedia/) setek zgłoszeń do działu pomocy technicznej oraz transkrypcji czatów odbywających się codziennie w prawie dwudziestu językach. Podsumowania te pomagają teraz inżynierom w szybszym rozwiązywaniu problemów klientów i doskonaleniu ogólnego środowiska obsługi zgłoszeń.
+
+**3\. Tłumaczenie**
+
+Pierwotnym celem Google przy opracowywaniu transformerów było udoskonalenie tłumaczenia maszynowego. Dopiero później model ten zyskał uznanie programistów dzięki swoim szerszym zdolnościom. Pierwsze implementacje transformerów osiągnęły ten cel, zapewniając niezrównaną wydajność w tłumaczeniu języka angielskiego na niemiecki dzięki modelowi, którego trenowanie wymagało znacznie mniej czasu i zasobów obliczeniowych niż w przypadku poprzednich modeli.
+
+Nowoczesne modele LLM wykraczają daleko poza to ograniczone zastosowanie. Mimo że większość model LLM nie jest specjalnie trenowana do roli tłumaczy, nadal doskonale radzą sobie z interpretacją tekstu w jednym języku i jasnym tłumaczeniem go na inny język, o ile zostały odpowiednio wytrenowane na zbiorach danych w obu językach. Ten przełom w przełamywaniu barier językowych jest niezwykle cenny dla przedsiębiorstw prowadzących działalność międzynarodową. Międzynarodowe przedsiębiorstwa korzystają z zaawansowanych usług językowych, aby na przykład zapewniać wielojęzyczne wsparcie dla swoich produktów i usług, tłumaczyć przewodniki, samouczki i materiały marketingowe oraz wykorzystywać istniejące zasoby edukacyjne do trenowania pracowników podczas ekspansji na nowe rynki.
+
+## Przyszłość modeli LLM
+
+**Postępy w modelach multimodalnych**
+
+Aktywnym obszarem badań jest wykorzystanie modeli LLM jako podstawowych modeli sztucznej inteligencji, które generują wyniki w rodzajach treści innych niż język. Imponująca wszechstronność modelu LLM umożliwia, poprzez proces dostrajania przy użyciu oznaczonych danych, interpretację i tworzenie materiałów audio, obrazów, a nawet materiałów wideo. Modele, które przyjmują instrukcje lub generują dane wyjściowe w rodzajach treści innych niż język, są czasami nazywane dużymi modelami multimodalnymi (LMM).
+
+**Kwestie środowiskowe**
+
+Modele LLM zazwyczaj wymagają ogromnej mocy obliczeniowej, aby można je było rozwijać i obsługiwać na dużą skalę. Trenowanie pojedynczego modelu za pomocą klastra zawierającego setki, a czasami nawet tysięcy procesorów graficznych przez wiele tygodni może zużywać ogromne ilości energii. Po wdrożeniu udanego modelu infrastruktura obsługująca wnioskowanie nadal wymaga dużych ilości energii, aby odpowiadać na ciągłe zapytania użytkowników.
+
+Szacuje się, że wytrenowanie modelu GPT-4 wymagało około 50 gigawatogodzin energii. 50 gigawatogodzin energii to teoretycznie moc obliczeniowa wystarczająca do zasilania od 4500 do 5000 typowych amerykańskich gospodarstw domowych przez rok. Obecnie szacuje się, że ChatGPT zużywa setki megawatogodzin dziennie, aby odpowiadać na miliony zapytań. Wraz ze wzrostem rozmiarów modeli językowych obawy dotyczące zużycia energii i zrównoważonego rozwoju mogą stać się coraz bardziej odczuwalne. Z tego względu przedsiębiorstwa zajmujące się sztuczną inteligencją przodują w poszukiwaniu alternatywnych źródeł energii, aby zmniejszyć swój ślad węglowy.
+
+## Tworzenie aplikacji LLM za pomocą generatywnej sztucznej inteligencji bazującej na infrastrukturze OCI
+
+Oracle oddaje modele LLM w ręce przedsiębiorstw, nie wymagając od nich zmagania się ze szczegółami technicznymi ani wymaganiami energetycznymi tej fascynującej technologii. [Oracle Cloud Infrastructure (OCI) Generative AI](https://www.oracle.com/pl/artificial-intelligence/generative-ai/generative-ai-service/) to w pełni zarządzana usługa, która upraszcza wdrażanie najnowszych modeli LLM w sposób spersonalizowany, efektywny i ekonomiczny, jednocześnie eliminując konieczność zarządzania złożoną infrastrukturą. Przedsiębiorstwa mogą wybierać spośród kilku modeli podstawowych, a następnie dostrajać je przy użyciu dedykowanych klastrów GPU i na podstawie własnych danych, uzyskując w ten sposób spersonalizowane modele, które najlepiej odpowiadają konkretnym potrzebom biznesowym.
+
+Przedsiębiorstwa, które chcą więcej eksperymentować z modelami podstawowymi, wybierają funkcje [uczenia maszynowego w Oracle Database](https://www.oracle.com/pl/artificial-intelligence/database-machine-learning/). Platforma ta wyposaża danologów w odpowiednie narzędzia do szybkiego tworzenia modeli poprzez uproszczenie i automatyzację kluczowych elementów cyklu życia uczenia maszynowego bez konieczności migracji danych wrażliwych z baz danych Oracle. Danolodzy mają tu do dyspozycji popularne frameworki uczenia maszynowego, interfejsy API, automatyczne funkcje uczenia maszynowego (AutoML) i interfejsy niewymagające pisania kodu, a także ponad 30 wbudowanych w bazę danych wydajnych algorytmów, które służą do tworzenia modeli wykorzystywanych w różnych zastosowaniach.
+
+Wiele znanych organizacji korzysta też z zalet [infrastruktury Oracle AI](https://www.oracle.com/ai-infrastructure/), aby tworzyć własne modele LLM. Infrastruktura sztucznej inteligencji to podstawa usług sztucznej inteligencji na wyższym poziomie, takich jak OCI Generative AI, i może być używana do tworzenia najbardziej wymagających modeli LLM, dzięki szybszemu przetwarzaniu, nowoczesnym sieciom i pojemnej pamięci.
+
+Potencjał modeli LLM w zakresie transformacji sposobu działania przedsiębiorstw i obsługi klientów jest tak ogromny, że nowe przełomowe rozwiązania i inwestycje w ramach tej technologii mogą zmienić sytuację na rynkach światowych i istotnie wpłynąć na strategie przedsiębiorstw. Dla menedżerów ds. biznesowych i informatycznych ważne jest jednak przebicie się przez szum medialny i zrozumienie podstaw działania, ograniczeń i wyzwań związanych z wdrażaniem modeli LLM, jednocześnie starając się dostrzec liczne wymierne korzyści, jakie technologia ta może im przynieść.
+
+[Pobierz e-booka](https://www.oracle.com/pl/artificial-intelligence/10-ways-ai-will-deliver-business-value-in-2025-form/?source=:ow:o:p:po:::RC_WWMK240426P00027:BSA_WhatAreLargeLanguageModels_pl&intcmp=:ow:o:p:po:::RC_WWMK240426P00027:BSA_WhatAreLargeLanguageModels_pl "Pobierz e-booka")
+
+Na modelach LLM opiera się wiele przełomowych technologii, które zmieniają nasz sposób pracy.
+
+[Uzyskaj dostęp do e-booka](https://www.oracle.com/pl/artificial-intelligence/10-ways-ai-will-deliver-business-value-in-2025-form/?source=:ow:o:p:po:::RC_WWMK240426P00027:BSA_WhatAreLargeLanguageModels_pl&intcmp=:ow:o:p:po:::RC_WWMK240426P00027:BSA_WhatAreLargeLanguageModels_pl "Pobierz e-booka")
+
+## Modele LLM — często zadawane pytania
+
+**W jaki sposób duże modele językowe są dostrajane do konkretnych zastosowań?**
+
+Aby dostroić model LLM do konkretnych zastosowań, po wstępnej fazie treningu, w której używany jest mechanizm samouczenia się w celu stworzenia modelu podstawowego, następuje faza uczenia nadzorowanego na mniejszej ilości oznaczonych danych, bardziej właściwych dla danego obszaru zastosowania.
+
+**Które branże odnoszą największe korzyści z używania dużych modeli językowych?**
+
+Prawie każda branża odkrywa korzyści płynące z wdrożenia modeli LLM. Wśród branż, które badają różne zastosowania tej technologii w celu poprawy obsługi klienta i automatyzacji procesów biznesowych, można wymienić opiekę zdrowotną, usługi finansowe i handel detaliczny.
+
+**Czy duże modele językowe można zintegrować z systemami przedsiębiorstwa?**
+
+Duże modele językowe są często integrowane z systemami przedsiębiorstw poprzez dostrajanie modeli podstawowych do specyfiki przedsiębiorstwa i rozszerzanie tych modeli o dane przedsiębiorstwa w ramach procesu generowania wspomaganego wyszukiwaniem.
+
+- [© 2026 Oracle](https://www.oracle.com/pl/legal/copyright/)
+- [Prywatność](https://www.oracle.com/pl/legal/privacy/)/ [Nie sprzedawajcie moich danych](https://www.oracle.com/pl/legal/privacy/privacy-choices/)
+- Cookie Preferences
+
+- [Ad Choices](https://www.oracle.com/pl/legal/privacy/privacy-policy/#adchoices)
+- [Kariera](https://www.oracle.com/pl/corporate/careers/)
+- [Infolinia ds. integralności](https://secure.ethicspoint.com/domain/media/en/gui/31053/index.html)
+- [Skontaktuj się z nami](https://www.oracle.com/pl/corporate/contact/)
+
+- [Facebook](https://www.facebook.com/Oracle/ "Oracle na Facebooku")
+- [X](https://x.com/oracle)
+- [LinkedIn](https://www.linkedin.com/company/oracle/)
+- [YouTube](https://www.youtube.com/oracle/)
+
+[close-button](https://www.oracle.com/pl/artificial-intelligence/large-language-model/#close)[Czat z działem sprzedaży](https://www.oracle.com/pl/artificial-intelligence/large-language-model/#saleschat) [Zadzwoń lub skontaktuj się z nami w inny sposób](https://www.oracle.com/pl/corporate/contact/global.html#emea)
+
+- [chat](https://www.oracle.com/pl/artificial-intelligence/large-language-model/#)
+
+**Czat dot. sprzedaży** [Rozważasz zakup?](https://www.oracle.com/pl/artificial-intelligence/large-language-model/#saleschat) [Zadzwoń do działu sprzedaży](https://www.oracle.com/pl/corporate/contact/global.html#emea) [Czat z działem sprzedaży](https://www.oracle.com/pl/artificial-intelligence/large-language-model/#saleschat)
+
+**Czat Cloud Support** [Problemy dotyczące kont, subskrypcji i promocji](https://oc-cx-en.custhelp.com/app/chat/chat_launch/incidents.c$sc_country/131) [Zacznij rozmowę](https://oc-cx-en.custhelp.com/app/chat/chat_launch/incidents.c$sc_country/131)
+
+**Opcje Oracle Support** [Potrzebujesz asysty technicznej lub innego rodzaju pomocy?](https://www.oracle.com/pl/support/support-options.html) [Zobacz opcje pomocy](https://www.oracle.com/pl/support/support-options.html)
+
+consent.trustarc.com
+
+# consent.trustarc.com is blocked
+
+This page has been blocked by an extension
+
+- Try disabling your extensions.
+
+ERR\_BLOCKED\_BY\_CLIENT
+
+Reload
+
+
+This page has been blocked by an extension
+
+![](<Base64-Image-Removed>)![](<Base64-Image-Removed>)
