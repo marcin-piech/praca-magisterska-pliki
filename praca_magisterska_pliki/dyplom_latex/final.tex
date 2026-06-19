@@ -1,0 +1,63 @@
+\documentclass{pginz}
+
+%%%%%%%%%Miejsce na dodatkowe pakiety%%%%%%%%%%%%%
+\usepackage{subcaption}
+\usepackage{pdfpages}
+\usepackage[T1]{fontenc}
+\usepackage{csquotes}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage[
+    backend=biber,
+    style=numeric,
+    sorting=none,
+    sortcites=true,
+    maxnames=99,
+    minnames=1,
+    backref=false,
+    natbib=true
+]{biblatex}
+\addbibresource{literatura.bib}
+
+\addto\captionspolish{
+  \renewcommand{\listfigurename}{Wykaz rysunków}
+  \renewcommand{\listtablename}{Wykaz tabel}
+}
+
+\begin{document}
+
+% \includepdf[pages={1}]{StronaTytulowa.pdf}
+
+% \includepdf[page={1-2}]{Oswiadczenie.pdf}
+
+\setcounter{page}{4}
+
+\include{streszczenie}
+\include{abstract}
+
+\tableofcontents
+\addcontentsline{toc}{chapter}{Wykaz ważniejszych oznaczeń i skrótów}
+
+%\include{Symbole}
+\include{oznaczenia}
+
+\include{rozdzial1}
+\include{rozdzial2}
+\include{rozdzial3}
+\include{rozdzial4}
+\include{rozdzial5}
+\include{rozdzial6}
+\include{rozdzial7}
+\include{podsumowanie}
+
+
+\printbibliography[title={Wykaz literatury}]
+\addcontentsline{toc}{chapter}{Wykaz literatury}
+
+\listoffigures
+\addcontentsline{toc}{chapter}{Wykaz rysunków}
+
+\listoftables
+\addcontentsline{toc}{chapter}{Wykaz tabel}
+
+\end{document}
